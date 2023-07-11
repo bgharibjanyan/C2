@@ -3,9 +3,23 @@ int main(){
 
 char sym=0;
 
-scanf("%c",&sym);
+
+while(1){
+
+
+	if(sym < 90 && sym > 64){
+		break;
+	}
+	else{
+		puts("inpute >>");
+		scanf("%c",&sym);
+
+	}
+}
+
 
 char result=sym+32;
+
 
 printf("%c",result );
 
